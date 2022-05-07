@@ -17,6 +17,8 @@ The challenge is to build out this QR code component and get it looking as close
 
 ### Screenshot
 
+![image](https://user-images.githubusercontent.com/102434217/167260976-edee099e-5d70-47ba-87cf-b9ac374a6964.png)
+
 (./images/screenShot.png)
 
 ### Links
