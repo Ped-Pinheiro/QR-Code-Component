@@ -7,22 +7,60 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+   
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      text-align: center;
+      background-color: hsl(216, 52%, 88%)
+    }
+    .white-box {
+      margin: auto;
+      text-align: center;
+      background-color: white;
+      padding: 100px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      border-radius: 15px;
+      width: 250px;
+
+    }
+    .qr-image {
+      width: 200px;
+      border-radius: 10px;
+    }
+    .text-Qr {
+      font-weight:600;
+      font-size: 20px;
+      color:hsl(218, 51%, 15%);
+      font-family:'Outfit';
+      padding: 10px;
+    }
+    .grayText {
+      color:rgb(77, 75, 75);
+      font-family: 'Outfit';
+      font-size: 15px;
+    }
+  .attribution {
+    padding: 30px;
+  }
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
+  <div class="white-box"> 
+  <img class="qr-image" src="./images/image-qr-code.png">
+    <div class="text-Qr">
+      Improve your front-end<br> skills by building projects
+     </div>
+     <div class="grayText">
+      Scan the QR code to visit Frontend<br> Mentor and take your coding skills to<br> the next level
+     </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Pedro Pinheiro</a>.
   </div>
 </body>
 </html>
