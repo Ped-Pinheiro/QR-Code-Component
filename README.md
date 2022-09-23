@@ -23,7 +23,7 @@ The challenge is to build out this QR code component and get it looking as close
 
 ### Links
 
-- Solution URL:(https://ped-pinheiro.github.io/QR-Code-Component/)
+- Solution URL:(https://shiny-zuccutto-d85600.netlify.app/)
 
 ### Built with
 
